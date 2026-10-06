@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Gabriel Rodrigues: Engenharia da Computação, automação e produtos digitais." />
+  <meta name="theme-color" content="#050510" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Gabriel Rodrigues — Portfólio</title>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Página inicial de Gabriel Rodrigues">GR<span aria-hidden="true">.</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#trajetoria">Trajetória</a><a href="#projetos">Projetos</a><a href="#capacidades">Capacidades</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="header-link" href="https://github.com/Gaba061" target="_blank" rel="noreferrer">GitHub</a>
+  </header>
+  <main id="conteudo">
+    <section class="opening" aria-labelledby="titulo-principal">
+      <div class="opening-copy">
+        <p class="status-line"><span aria-hidden="true"></span>Disponível para construir e aprender</p>
+        <h1 id="titulo-principal">Tecnologia aplicada<br />a problemas <em>reais.</em></h1>
+        <p class="opening-lead">Sou Gabriel Rodrigues, estudante de Engenharia da Computação. Construo produtos digitais e automações que conectam organização, desenvolvimento e operação.</p>
+        <div class="action-row"><a class="button primary" href="#projetos">Ver projetos</a><a class="button" href="/curriculo-gabriel-rodrigues.pdf" target="_blank" rel="noreferrer">Baixar currículo</a></div>
+        <details class="intro-video">
+          <summary>Assistir apresentação</summary>
+          <video controls preload="metadata" playsinline aria-label="Vídeo de apresentação de Gabriel Rodrigues">
+            <source src="/media/gabriel-rodrigues-portfolio.mp4" type="video/mp4" />
+            Seu navegador não consegue reproduzir este vídeo.
+          </video>
+        </details>
+      </div>
+      <aside class="identity-panel" aria-label="Resumo profissional">
+        <div class="panel-top"><span>GR / PROFILE</span><span class="panel-ready">ONLINE</span></div>
+        <div class="panel-name">Gabriel<br /><span>Rodrigues</span></div>
+        <dl>
+          <div><dt>FORMAÇÃO</dt><dd>Engenharia da Computação · CEUB</dd></div>
+          <div><dt>ATUAÇÃO</dt><dd>Desenvolvimento, automação e operações de TI</dd></div>
+          <div><dt>FOCO</dt><dd>Web, backend e sistemas orientados por IA</dd></div>
+        </dl>
+      </aside>
+    </section>
+    <section class="trajectory section" id="trajetoria" aria-labelledby="titulo-trajetoria">
+      <div class="section-intro"><h2 id="titulo-trajetoria">Uma trajetória que liga formação, operação e construção.</h2><p>Meu percurso combina estudo contínuo com experiências que aproximam tecnologia das necessidades práticas de um negócio.</p></div>
+      <ol class="timeline">
+        <li class="timeline-entry experience"><p class="timeline-date">2024 — atual</p><div><h3>IPE Trading</h3><p>Atuação em suporte de TI, manutenção de computadores, marketing e logística, apoiando rotinas onde tecnologia e operação se encontram.</p></div></li>
+        <li class="timeline-entry education"><p class="timeline-date">em formação</p><div><h3>Engenharia da Computação · CEUB</h3><p>Graduação em andamento, com conclusão prevista para 2027 e foco em ampliar fundamentos de software, hardware e sistemas.</p></div></li>
+        <li class="timeline-entry certification"><p class="timeline-date">aprendizado contínuo</p><div><h3>Programação, dados e infraestrutura</h3><p>Cursos em Python, JavaScript, Node.js, bancos de dados, frontend e lógica, além das certificações Cisco em Cibersegurança e IoT.</p></div></li>
+      </ol>
+    </section>
+    <section class="projects section" id="projetos" aria-labelledby="titulo-projetos">
+      <div class="section-intro projects-intro"><h2 id="titulo-projetos">Projetos que tornam a prática visível.</h2><p>Cada projeto registra um problema, uma construção técnica e um próximo passo para quem quiser aprofundar.</p></div>
+      <article class="project-record primary-record"><div class="record-index">PROJETO / 01</div><div class="record-content"><p class="record-type">Produto digital</p><h3>Organized Hub</h3><p class="record-lead">Um espaço pessoal para organizar estudos, carreira, projetos e agentes especializados.</p><div class="record-details"><p><strong>Construção</strong>Interface e estrutura para centralizar áreas de foco e reduzir a dispersão entre projetos.</p><p><strong>Tecnologias</strong>Desenvolvimento web, TypeScript, banco de dados e automação.</p></div><a class="text-link" href="https://github.com/Gaba061/projeto-1-pg2" target="_blank" rel="noreferrer">Explorar no GitHub</a></div></article>
+      <article class="project-record secondary-record"><div class="record-index">PROJETO / 02</div><div class="record-content"><p class="record-type">Automação e agentes</p><h3>Gabriel AI Hub — Roteador</h3><p class="record-lead">Um fluxo n8n que encaminha mensagens a agentes especializados e preserva o contexto de cada usuário.</p><div class="record-details"><p><strong>Construção</strong>Quatro rotas de agentes, validação de requisições, histórico idempotente e memória persistente isolada por usuário.</p><p><strong>Tecnologias</strong>n8n, webhooks, contratos de API e automação com IA.</p></div><a class="text-link" href="https://gaba061.app.n8n.cloud/workflow/Gd3TgFC1BhBpGtCD" target="_blank" rel="noreferrer">Conhecer o fluxo</a></div></article>
+    </section>
+    <section class="capabilities section" id="capacidades" aria-labelledby="titulo-capacidades">
+      <div class="section-intro"><h2 id="titulo-capacidades">Capacidades em evolução, aplicadas com contexto.</h2></div>
+      <div class="capability-matrix" role="list">
+        <article role="listitem"><h3>Desenvolvimento</h3><p>Python, Java, JavaScript, C, HTML, CSS e Node.js para construir interfaces, serviços e fundamentos de software.</p></article>
+        <article role="listitem"><h3>Automação e IA aplicada</h3><p>n8n, webhooks, roteamento de agentes, persistência e contratos de API para conectar fluxos e informações.</p></article>
+        <article role="listitem"><h3>Fundamentos</h3><p>Lógica de programação, bancos de dados, cibersegurança introdutória e IoT como base para decisões técnicas consistentes.</p></article>
+        <article role="listitem"><h3>Operação de tecnologia</h3><p>Suporte de TI, diagnóstico, manutenção, marketing e logística com atenção ao funcionamento real do negócio.</p></article>
+      </div>
+    </section>
+    <section class="contact section" id="contato" aria-labelledby="titulo-contato">
+      <div class="contact-copy"><h2 id="titulo-contato">Vamos conversar sobre o próximo projeto?</h2><p>Estou aberto a oportunidades, projetos de tecnologia, parcerias e conversas que conectem uma boa ideia a uma solução concreta.</p></div>
+      <div class="contact-links"><a class="button primary" href="mailto:gabriel.rdrigues.silva@gmail.com">Enviar e-mail</a><a class="button" href="https://www.linkedin.com/in/gabriel-rodrigues-3229ba219/" target="_blank" rel="noreferrer">Abrir LinkedIn</a><a class="button" href="https://github.com/Gaba061" target="_blank" rel="noreferrer">Ver GitHub</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>GABRIEL RODRIGUES</span><span>PORTFÓLIO · 2026</span></footer>
+</body>
+</html>
+
