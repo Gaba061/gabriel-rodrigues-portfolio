@@ -6,7 +6,8 @@
 
 Portfólio profissional de Gabriel Rodrigues: Engenharia da Computação, desenvolvimento web, back-end, automação e inteligência artificial aplicada.
 
-[![Abrir portfólio](https://img.shields.io/badge/abrir-portfólio-7A6448?style=for-the-badge)](https://github.com/Gaba061/gabriel-rodrigues-portfolio)
+[![Abrir localmente](https://img.shields.io/badge/abrir-localmente-7A6448?style=for-the-badge)](http://127.0.0.1:4173/)
+[![Ver código](https://img.shields.io/badge/ver-código-181717?style=for-the-badge&logo=github)](https://github.com/Gaba061/gabriel-rodrigues-portfolio)
 [![Perfil GitHub](https://img.shields.io/badge/GitHub-Gaba061-181717?style=for-the-badge&logo=github)](https://github.com/Gaba061)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Rodrigues-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gabriel-rodrigues-3229ba219/)
 
