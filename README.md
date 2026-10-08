@@ -6,7 +6,7 @@
 
 Portfólio profissional de Gabriel Rodrigues: Engenharia da Computação, desenvolvimento web, back-end, automação e inteligência artificial aplicada.
 
-[![Abrir localmente](https://img.shields.io/badge/abrir-localmente-7A6448?style=for-the-badge)](http://127.0.0.1:4173/)
+[![Abrir localmente](https://img.shields.io/badge/abrir-localmente-7A6448?style=for-the-badge)](http://127.0.0.1:8000/)
 [![Ver código](https://img.shields.io/badge/ver-código-181717?style=for-the-badge&logo=github)](https://github.com/Gaba061/gabriel-rodrigues-portfolio)
 [![Perfil GitHub](https://img.shields.io/badge/GitHub-Gaba061-181717?style=for-the-badge&logo=github)](https://github.com/Gaba061)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Rodrigues-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gabriel-rodrigues-3229ba219/)
@@ -105,10 +105,10 @@ O projeto é estático e não exige banco de dados ou instalação de dependênc
 Com Python:
 
 ```powershell
-python -m http.server 4173
+python -m http.server 8000
 ```
 
-Depois, abra <http://127.0.0.1:4173>.
+Depois, abra <http://127.0.0.1:8000>.
 
 Também é possível abrir `index.html` diretamente no navegador ou usar a extensão Live Server no VS Code.
 
